@@ -1,0 +1,31 @@
+{
+    "name": "thrashzone13/srt-parser",
+    "description": "Tiny library for parsing srt files",
+    "type": "library",
+    "authors": [
+        {
+            "name": "thrashzone13",
+            "email": "reza.rabbani.369@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "keywords": [
+        "Srt",
+        "Parser"
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thrashzone13\\SrtParser\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SrtParser\\SrtParserServiceProvider"
+            ]
+        }
+    }
+}
