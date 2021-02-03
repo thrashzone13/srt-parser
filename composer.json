@@ -20,12 +20,5 @@
         "psr-4": {
             "Thrashzone13\\SrtParser\\": "src"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "SrtParser\\SrtParserServiceProvider"
-            ]
-        }
     }
 }
